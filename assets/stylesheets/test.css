@@ -1,0 +1,28 @@
+
+. {
+	box-sizing: border-box;
+}
+
+b {
+	/*margin: 30px 0;*/
+	/*padding: 0 30px;*/
+}
+
+.container {
+
+	width: 1000px;
+	height: 300px;
+
+
+	padding: 20px 50px;
+	margin: 0 auto;
+
+
+	background-color: orange;
+	text-align: left;
+}
+
+.col1, .col2 {
+
+	width: 50%;
+}
