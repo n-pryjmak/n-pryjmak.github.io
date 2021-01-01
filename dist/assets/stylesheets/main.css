@@ -1,3 +1,15 @@
+
+/*
+  ========================================
+  Temp
+  ========================================
+*/
+
+.temp-placeholder {
+	height: 550px;
+}
+
+
 /*
   ========================================
   Grid
@@ -9,11 +21,25 @@
 	box-sizing: border-box;
 }
 
+.group:after {
+	display: table;
+	content: "";
+
+	clear: both;
+}
+
+.logo {
+	float: left;
+
+	border-top: 4px solid #648880;
+	padding: 40px 0 22px 0;
+}
+
 .container {
 	/*width: width-200px;*/
 	
 	padding-left: 30px;
-	padding-right: 20%;
+	padding-right: 10%;
 	/*margin: 0 auto;*/
 	margin-left: 17%;
 
@@ -21,6 +47,14 @@
 	/*background-color: black;*/
 
 }
+
+
+
+.primary-footer > small {
+	float: left;
+}
+
+
 
 
 /*
