@@ -1,101 +1,132 @@
 
-/*
-  ========================================
+/*========================================
   Temp
-  ========================================
-*/
+========================================== */
 
 .temp-placeholder {
-	height: 600px;
+    height: 750px;
+}
+
+.temp-block {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/tick_2.png") 20px 50% no-repeat,
+                linear-gradient(#3F3AA6, #001EFF);
+
+    height: 50px;
+    border-radius: 5px;
 }
 
 
-/*
-  ========================================
+/*========================================
   Main Grid
-  ========================================
-*/
-
-*, *:before, *:after {
-	box-sizing: border-box;
-}
+========================================== */
 
 .group:after {
-	display: table;
-	content: "";
+    display: table;
+    content: "";
+    clear: both;
+}
 
-	clear: both;
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.primary-header, .primary-footer {
+    background: #ca27ff;
+
+}
+
+.primary-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    border-bottom-left-radius: 5px;
 }
 
 .logo {
-	float: left;
+    float: left;
 
-	border-top: 4px solid #648880;
-	padding: 40px 0 22px 0;
+    border-top: 4px solid #648880;
+    padding-top: 15px;
+}
+
+.container, .primary-header, .primary-footer {
+    margin-left: 17%;
+    padding-left: 30px;
+    padding-right: 10%;
 }
 
 .container {
-	/*width: width-200px;*/
-	
-	padding-left: 30px;
-	padding-right: 10%;
-	/*margin: 0 auto;*/
-	margin-left: 17%;
+    min-height: 100vh;
+    margin-left: 17.3%;
 
-	background-color: #f1a3ff;
-	background-color: black;
+    background-color: #f1a3ff;
 }
-.col-1-3, .col-2-3 {
-	display: inline-block;
-	vertical-align: top;
+
+.left-part {
+    text-align: right;
+}
+
+
+.col-1-3,
+.col-2-3 {
+    display: inline-block;
+    vertical-align: top;
 }
 
 .col-1-3 {
-	width: 33.33%;
+    width: 33.33%;
 }
 
 .col-2-3 {
-	width: 66.66%;
+    width: 66.66%;
 }
 
 
-.col-1-3, .col-2-3 {
-	padding-left: 15px;
-	padding-right: 15px;
+.col-1-3,
+.col-2-3 {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
+.primary-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 
+    border-top-left-radius: 5px;
+}
 
 .primary-footer > small {
-	float: left;
+  float: left;
 }
 
 
 
-/*
-  ========================================
+/*========================================
   Buttons
-  ========================================
-*/
+========================================== */
 
 .btn {
-	display: inline-block;
+  display: inline-block;
 
-	border-radius: 5px;
+  border-radius: 5px;
 }
 
 .btn-alt {
-	border: 1px solid black;
-	padding: 10px 30px;
+  border: 1px solid black;
+  padding: 10px 30px;
 }
 
 
-/*
-  ========================================
+/*========================================
   Home Page
-  ========================================
-*/
+========================================== */
 
 .hero {
-	padding: 22px 330px 66px 80px;
+  padding: 22px 330px 66px 80px;
 }
