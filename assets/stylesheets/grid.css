@@ -42,8 +42,6 @@
     top: 0;
     left: 0;
     right: 0;
-
-    border-bottom-left-radius: 5px;
 }
 
 .logo {
@@ -54,14 +52,11 @@
 }
 
 .container, .primary-header, .primary-footer {
-    margin-left: 17%;
-    padding-left: 30px;
-    padding-right: 10%;
+
 }
 
 .container {
     min-height: 100vh;
-    margin-left: 17.3%;
 
     background-color: #f1a3ff;
 }
@@ -98,11 +93,10 @@
     left: 0;
     right: 0;
 
-    border-top-left-radius: 5px;
 }
 
 .primary-footer > small {
-  float: left;
+    float: left;
 }
 
 
@@ -118,15 +112,5 @@
 }
 
 .btn-alt {
-  border: 1px solid black;
-  padding: 10px 30px;
-}
 
-
-/*========================================
-  Home Page
-========================================== */
-
-.hero {
-  padding: 22px 330px 66px 80px;
 }
